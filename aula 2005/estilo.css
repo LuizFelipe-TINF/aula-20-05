@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
+    color: white;
     font-family: "Open Sans", sans-serif;
     background: #020024;
     background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
 }
 
 .avatar{
     width: 280px;
     border: 8px solid white;
     border-radius: 200px;
+}
+
+.todoconteudo{
+    width: 600px;
+    margin-top: auto;
+}
+
+.meuslinks{
+    text-align: center;
 }
